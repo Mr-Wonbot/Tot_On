@@ -1,9 +1,12 @@
+from __future__ import unicode_literals
 import time
 from datetime import datetime as dt
 
+#hard coded parameters
+
 host_path = "C:\Windows\System32\drivers\etc\hosts"
 redirect = "127.0.0.1"
-black_list = ["www.facebook.com", "facebook.com", "www.yahoo.com", "yahoo.com"]
+black_list = ["www.facebook.com","www.youtube.com"]
 
 
 while True:
